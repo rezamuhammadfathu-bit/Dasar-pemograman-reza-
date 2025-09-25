@@ -1,0 +1,5 @@
+terlambat = False 
+if terlambat :
+	 print('saya akan di hukum mati  ! ')
+else :
+    print('saya di jemput oleh orang random')
