@@ -1,0 +1,10 @@
+pendapatan = 15000
+if pendapatan < 10000 :
+	koefisien_pajak = 0.0
+elif pendapatan < 30000 :
+	koefisien_pajak = 0.2
+elif pendapatan < 100000 :
+	koefisien_pajak = 0.35
+else :
+	koefisien_pajak = 0.45
+print('aku bisa bayar', pendapatan * koefisien_pajak, 'dalam pajak')	
