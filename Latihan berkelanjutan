@@ -1,0 +1,5 @@
+# Contoh List
+my_list = [1,"apel", 3.14]
+my_list[1] = "pisang" # mengubah element
+my_list.append(4)  # menambah element
+print(my_list) # output : [1, 'pisang', 3.14,4]
