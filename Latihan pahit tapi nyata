@@ -1,0 +1,29 @@
+for number in [1,2,3,4,] :
+	print (number)
+	
+	for number in range (5) :
+		print (number)
+		
+surnames = ['reza','ghafar','fathur']
+for position in range (len(surnames)) :
+	print (position,surnames[position])
+		
+surnames = ['reza','ghafar','fathur']
+for position in surnames :
+    print  (surnames)
+    	
+people = ['baim','jerry','kevin','syamsul']   
+ages = ['15','17','14','20']
+for position in range(len(people)):
+    person = people[position]
+    age = ages[position]
+    print(person, age)
+     
+people = ['baim','kevin','fathan','azka']    
+ages = ['16','17','20','13']
+nationalities_list = ['italy','greece','german','america'] 
+for position in range(len(people)):
+    person = people[position]
+    age = ages[position]
+    nationality = nationalities_list[position] 
+    print(person, age, nationality)
