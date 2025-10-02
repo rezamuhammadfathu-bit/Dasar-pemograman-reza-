@@ -1,0 +1,17 @@
+nilai = int(input('masukan nilai (0 - 100) : '))
+
+
+if not (0 <= nilai <= 100):
+    print('nilai harus berada rentang 0 sampai 100')
+else:
+    if nilai >= 91:  
+        grade = "A"
+    elif nilai >= 81: 
+        grade = "B"
+    elif nilai >= 75: 
+        grade = "C"
+    else:             
+        grade = 'D'
+
+    print(f'nilai anda adalah : {nilai}')
+    print(f'grade anda adalah = {grade}')
